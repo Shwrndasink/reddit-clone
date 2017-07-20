@@ -17,6 +17,7 @@ class Posts extends Component {
             downvote: post.downvote + 1
         });
     }
+    
     render() {
         let posts = this.props.posts;
         let _this = this;
